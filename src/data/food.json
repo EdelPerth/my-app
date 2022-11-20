@@ -1,0 +1,22 @@
+{
+    "food": [
+        {
+            "title": "Smoothie",
+            "description": "Deliciously refreshing and healthy. Add any fruit or vegetable that you have on hand.",
+            "rating": 5,
+            "haveTried": "yes"        
+        },
+        {
+            "title": "Pesto",
+            "description": "Another refreshing dish that can be added to any dish such as pasta, sandwiches and toast. Simply made with basil, olive oil and almonds",
+            "rating": 5,
+            "haveTried": "yes"        
+        },
+        {
+            "title": "Bone broth",
+            "description": "So good for your wellbeing, add to any dish as a stock. Simmer your chicken or beef bones ",
+            "rating": 5,
+            "haveTried": "yes"        
+        }
+    ]
+}
