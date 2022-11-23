@@ -1,12 +1,12 @@
 import foodData from "../../data/food.json"
-import FoodListItem from "../Food"
+import foodListItem> from "../Food"
 
 
 function FoodList() {
     return (
         foodData.food.map ((food) => {
             return (
-                <FoodListItem foodData={food}/>
+                <FoodListItem foodData ={food}/>
             )      
         })
     )
