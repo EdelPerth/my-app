@@ -1,11 +1,13 @@
-function FoodListItem(props) {
+function FoodListItems(props){
     return (
         <div>
             <h3>
-                {props.food.title} are my favourite foods {props.food.rated}
+                {props.title }
+                are my favourite foods 
             </h3>
-                <p> Have I eaten this often {props.food.haveTried}? 
+                <p> Have I eaten this often ? 
                 </p>
+            
         </div>
     )
 }
