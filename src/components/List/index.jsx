@@ -1,15 +1,17 @@
 import foodData from "../../data/food.json"
-import foodListItem> from "../Food"
+import FoodListItem from "../Food"
 
-
-function FoodList() {
+function FoodList () {
     return (
-        foodData.food.map ((food) => {
+        foodData.food.map((food)  =>{
             return (
-                <FoodListItem foodData ={food}/>
-            )      
+                <FoodListItem foodData={food}/>                
+                )
         })
     )
 }
 
 export default FoodList
+
+// Line 8 is called a refactor ie <FoodListItem foodData= {food}/> 
+// making our code more extensible and readable

@@ -1,14 +1,16 @@
-function FoodListItems(props){
+function FoodListItem (props) {
     return (
         <div>
-            <h3>
-                {props.title }
-                are my favourite foods 
+            {
+                props.foodData.isNew && (<h1>NEW</h1>)
+            }
+           
+             <h3>
+                {props.foodData.title} is {props.foodData.description} and I rate it {props.foodData.rating} out of 5.
             </h3>
-                <p> Have I eaten this often ? 
-                </p>
-            
-        </div>
+             <p> Have i tried it?  {props.foodData.haveTried}</p>
+            </div>
     )
 }
+
 export default FoodListItem
